@@ -14,10 +14,9 @@ import expressLogo from "../../../public/images/logo/express.png";
 import mysqlLogo from "../../../public/images/logo/mysql.png";
 import githubLogo from "../../../public/images/logo/github.png";
 import gitLogo from "../../../public/images/logo/git.png";
-
+import TypeScriptLogo from "../../../public/images/logo/typescript.png";
 
 const skillsList = [
-  
   {
     name: "ReactJS",
     icon: ReactJsLogo,
@@ -26,7 +25,10 @@ const skillsList = [
     name: "JavaScript",
     icon: JavaScriptLogo,
   },
-  
+  {
+    name: "TypeScript",
+    icon: TypeScriptLogo,
+  },
   {
     name: "NodeJS",
     icon: nodeLogo,
@@ -67,7 +69,6 @@ const skillsList = [
     name: "C++",
     icon: cppLogo,
   },
-  
 
   {
     name: "GitHub",
