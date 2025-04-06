@@ -34,7 +34,7 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
+        <p className="text-[#ADB7BE] mb-4 text-lg max-w-md">
           {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
@@ -62,7 +62,7 @@ const EmailSection = () => {
             <div className="mb-6">
               <label
                 htmlFor="email"
-                className="text-white block mb-2 text-sm font-medium"
+                className="text-white block mb-2 text-md font-medium"
               >
                 Your email
               </label>
@@ -87,7 +87,7 @@ const EmailSection = () => {
                 type="text"
                 id="subject"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-md rounded-lg block w-full p-2.5"
                 placeholder="Just saying hi"
               />
             </div>
@@ -101,13 +101,13 @@ const EmailSection = () => {
               <textarea
                 name="message"
                 id="message"
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-md rounded-lg block w-full p-2.5"
                 placeholder="Let's talk about..."
               />
             </div>
             <button
               type="submit"
-              className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-pink-600 hover:bg-pink-700 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
               Send Message
             </button>

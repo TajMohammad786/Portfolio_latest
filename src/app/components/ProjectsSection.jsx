@@ -155,7 +155,7 @@ const ProjectsSection = () => {
           isSelected={tag === "BlockChain"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 hover:shadow-pink-500/30">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}

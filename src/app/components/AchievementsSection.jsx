@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import htmlLogo from "../../../public/images/logo/html-5.png";
-import cssLogo from "../../../public/images/logo/css-3.png";
+// import htmlLogo from "../../../public/images/logo/html-5.png";
+// import cssLogo from "../../../public/images/logo/css-3.png";
 import scssLogo from "../../../public/images/logo/sass.png";
 import ReactJsLogo from "../../../public/images/logo/physics.png";
 import JavaScriptLogo from "../../../public/images/logo/js.png";
-import MongoDBLogo from "../../../public/images/logo/leaf.png";
+import MongoDBLogo from "../../../public/images/logo/mongo.png";
 import BootstrapLogo from "../../../public/images/logo/bootstrap.png";
-import TailwindLogo from "../../../public/images/logo/tail.jpg";
+import TailwindLogo from "../../../public/images/logo/tailwind.png";
 import cppLogo from "../../../public/images/logo/c-.png";
 import nodeLogo from "../../../public/images/logo/nodejs.png";
 import expressLogo from "../../../public/images/logo/express.png";
@@ -44,14 +44,6 @@ const skillsList = [
   {
     name: "MySQL",
     icon: mysqlLogo,
-  },
-  {
-    name: "HTML",
-    icon: htmlLogo,
-  },
-  {
-    name: "CSS",
-    icon: cssLogo,
   },
   {
     name: "SCSS",

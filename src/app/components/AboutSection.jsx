@@ -4,57 +4,73 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-
 const TAB_DATA = [
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-      <li>
-        Viva Institute of Technology, Virar
-        <ul className="list-none pl-1">
-          <li>CGPA: 9.13</li>
-        </ul>
-      </li>
-      <li>
-        Don Bosco Jr College, Naigaon
-        <ul className="list-none pl-1">
-          <li>Marks: 79.23&#37;</li>
-        </ul>
-      </li>
-    </ul>
-
-    ),
-  },
-  
-  
   {
     title: "Certifications",
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-      <li className="flex items-center">
-      • FrontEnd Development Course | Coursera by Meta 
-      <a href="https://drive.google.com/file/d/1D-ZW9yp5X6Ipm7WIT4EQS0TGC2lTvgaO/view?usp=drive_link" target="_blank" className="text-pink-500">
-          <FaExternalLinkAlt className="ml-3" /></a>
-      </li>
-      <li className="flex items-center">
-      • Complete ReactJS Course | Udemy
-      <a href="https://drive.google.com/file/d/1-Jg7H3YPAfKg-RW7kCKgS9Tbcmh8pA0O/view?usp=drive_link" target="_blank" className="text-pink-500">
-          <FaExternalLinkAlt className="ml-3" /></a>
-      </li>
-      <li className="flex items-center">
-      • CSS and JavaScript Course | Udemy
-      <a href="https://drive.google.com/file/d/1-JhTto2X8RF2gcweOtthFZ52G02D7Z6I/view?usp=drive_link" target="_blank" className="text-pink-500">
-          <FaExternalLinkAlt className="ml-3" /></a>
-      </li>
-      <li className="flex items-center">
-      • MySQL Crash Course | Udemy
-        <a href="https://drive.google.com/file/d/1-dHeCrQYOmNp0txTHEcY-P9teDVgsnfS/view?usp=drive_link" target="_blank" className="text-pink-500">
-          <FaExternalLinkAlt className="ml-3" /></a>
-      </li>
-    </ul>
+        <li className="flex items-center">
+          • FrontEnd Development Course | Coursera by Meta
+          <a
+            href="https://drive.google.com/file/d/1D-ZW9yp5X6Ipm7WIT4EQS0TGC2lTvgaO/view?usp=drive_link"
+            target="_blank"
+            className="text-pink-500"
+          >
+            <FaExternalLinkAlt className="ml-3" />
+          </a>
+        </li>
+        <li className="flex items-center">
+          • Complete ReactJS Course | Udemy
+          <a
+            href="https://drive.google.com/file/d/1-Jg7H3YPAfKg-RW7kCKgS9Tbcmh8pA0O/view?usp=drive_link"
+            target="_blank"
+            className="text-pink-500"
+          >
+            <FaExternalLinkAlt className="ml-3" />
+          </a>
+        </li>
+        <li className="flex items-center">
+          • CSS and JavaScript Course | Udemy
+          <a
+            href="https://drive.google.com/file/d/1-JhTto2X8RF2gcweOtthFZ52G02D7Z6I/view?usp=drive_link"
+            target="_blank"
+            className="text-pink-500"
+          >
+            <FaExternalLinkAlt className="ml-3" />
+          </a>
+        </li>
+        <li className="flex items-center">
+          • MySQL Crash Course | Udemy
+          <a
+            href="https://drive.google.com/file/d/1-dHeCrQYOmNp0txTHEcY-P9teDVgsnfS/view?usp=drive_link"
+            target="_blank"
+            className="text-pink-500"
+          >
+            <FaExternalLinkAlt className="ml-3" />
+          </a>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Education",
+    id: "education",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>
+          Viva Institute of Technology, Virar
+          <ul className="list-none pl-1">
+            <li>CGPA: 9.13</li>
+          </ul>
+        </li>
+        <li>
+          Don Bosco Jr College, Naigaon
+          <ul className="list-none pl-1">
+            <li>Marks: 79.23&#37;</li>
+          </ul>
+        </li>
+      </ul>
     ),
   },
   {
@@ -62,37 +78,43 @@ const TAB_DATA = [
     id: "code",
     content: (
       <ul className="list-disc pl-2">
-      <li className="flex items-center">
-      
-      • LeetCode
-      <a href="https://leetcode.com/TajMohammad/" target="_blank" className="text-pink-500">
-        <FaExternalLinkAlt className="ml-3" /></a>
-      
-        
-      </li>
-      <li className="flex items-center">
-      
-      • GFG Practice
-        <a href="https://auth.geeksforgeeks.org/user/tajmohammadkhan679" target="_blank" className="text-pink-500">
-          <FaExternalLinkAlt className="ml-3" /></a>
-      
-    
-    </li>
-    <li className="flex items-center">
-      
-    • CodeStudio 
-    <a href="https://www.codingninjas.com/studio/profile/PseudoSolver" target="_blank" className="text-pink-500">
-      <FaExternalLinkAlt className="ml-3" /></a>
-      
-    </li>
-  </ul>
-
+        <li className="flex items-center">
+          • LeetCode
+          <a
+            href="https://leetcode.com/TajMohammad/"
+            target="_blank"
+            className="text-pink-500"
+          >
+            <FaExternalLinkAlt className="ml-3" />
+          </a>
+        </li>
+        <li className="flex items-center">
+          • GFG Practice
+          <a
+            href="https://auth.geeksforgeeks.org/user/tajmohammadkhan679"
+            target="_blank"
+            className="text-pink-500"
+          >
+            <FaExternalLinkAlt className="ml-3" />
+          </a>
+        </li>
+        <li className="flex items-center">
+          • CodeStudio
+          <a
+            href="https://www.codingninjas.com/studio/profile/PseudoSolver"
+            target="_blank"
+            className="text-pink-500"
+          >
+            <FaExternalLinkAlt className="ml-3" />
+          </a>
+        </li>
+      </ul>
     ),
   },
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("education");
+  const [tab, setTab] = useState("certifications");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -112,32 +134,35 @@ const AboutSection = () => {
           style={{ borderRadius: "20px", marginBottom: "16px" }} // Adjust styles here
         />
         <div className="mt-2 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4"><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-        About Me
-            </span></h2>
-            <h3 className="text-lg lg:text-xl font-bold">I&apos;m Taj Mohammad Khan</h3>
-          <p className="font-medium">FullStack Developer</p>
+          <h2 className="text-4xl font-bold text-white mb-4">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+              About Me
+            </span>
+          </h2>
+          <h3 className="text-lg lg:text-xl font-bold">
+            I&apos;m Taj Mohammad Khan
+          </h3>
+          <p className="font-medium text-gray-300">FullStack Developer</p>
 
-          <p className="text-lg lg:text-xl mb-4 mt-3"> {/* Increase font size here */}
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Node.js, Express, MySQL,
-            SQL, C++, HTML, CSS, Bootstrap and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. 
-            {/* I am a team player and
-            I am excited to work with others to create amazing applications. */}
+          <p className="text-lg text-gray-300 lg:text-xl mb-4 mt-3">
+            {" "}
+            {/* Increase font size here */}I am a full stack web developer with
+            a passion for creating interactive and responsive web applications.
+            I have experience working with React, JavaScript, TypeScript, Node.js, Express,
+            MySQL, SQL, Git, Tailwind CSS and Bootstrap. I am a quick learner
+            and I am always looking to expand my knowledge and skill set. I am a team player and
+            I am excited to work with others to create amazing applications. 
           </p>
-          <p className="text-lg lg:text-xl" > <span style={{ color: '#c084fc' }}>Email </span>: tajmohammadkhan679@gmail.com</p>
-<p className="text-lg lg:text-xl"><span style={{ color: '#c084fc' }}>Place </span>: Mumbai, India</p>
+          <p className="text-lg lg:text-xl text-gray-300">
+            {" "}
+            <span className="text-pink-400">Email </span>:
+            tajmohammadkhan679@gmail.com
+          </p>
+          <p className="text-lg lg:text-xl text-gray-300">
+            <span className="text-pink-400">Place </span>: Mumbai, India
+          </p>
 
           <div className="flex flex-row justify-start mt-4">
-            <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
-            >
-              {" "}
-              Education{" "}
-            </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
@@ -152,8 +177,15 @@ const AboutSection = () => {
               {" "}
               Coding Profiles{" "}
             </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("education")}
+              active={tab === "education"}
+            >
+              {" "}
+              Education{" "}
+            </TabButton>
           </div>
-          <div className="text-lg mt-4">
+          <div className="text-lg mt-4 text-gray-300">
             {TAB_DATA.find((t) => t.id === tab)?.content}
           </div>
         </div>
