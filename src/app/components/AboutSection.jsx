@@ -61,7 +61,7 @@ const TAB_DATA = [
         <li>
           Viva Institute of Technology, Virar
           <ul className="list-none pl-1">
-            <li>CGPA: 9.13</li>
+            <li>CGPA: 8.94/10</li>
           </ul>
         </li>
         <li>
