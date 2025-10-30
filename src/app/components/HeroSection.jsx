@@ -4,7 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-// import Resume from "../../../public/Taj_Resume1.pdf"; 
+// import Resume from "../../../public/Taj_Resume1.pdf";
 
 const HeroSection = () => {
   return (
@@ -38,17 +38,19 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Software Developer with a passion for building web applications and solving problems.
+            Software Developer with a passion for building web applications and
+            solving problems.
           </p>
           <div>
             <Link
-              href="/#contact"
+              href="https://www.linkedin.com/in/taj-mohammad-khan/"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
             </Link>
             <a
-              href="/Taj_Resume1.pdf" download 
+              href="/Taj_Resume1.pdf"
+              download
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500
                hover:bg-slate-800 text-white mt-3"
             >
@@ -69,7 +71,6 @@ const HeroSection = () => {
               src="/images/Avatar.jpg"
               alt="hero image"
               className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[500px] lg:h-[400px] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              
               width={500}
               height={500}
             />

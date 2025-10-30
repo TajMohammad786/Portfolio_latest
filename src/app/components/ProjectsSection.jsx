@@ -17,6 +17,16 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "MAPISH | AI-Powered YouTube Travel Video Mapping App",
+    description:
+      "Implemented AI-based location extraction using CohereAI API on video metadata and stored results with MongoDB geospatial indexing for efficient retrieval and filtering.",
+    image: "/images/projects/mapish.png",
+    tag: ["All", "Full Stack"],
+    gitUrl: "https://github.com/TajMohammad786/Mapish",
+    previewUrl: "https://mapish.onrender.com/",
+  },
+  {
+    id: 3,
     title: "QuickChat - Realtime Chat App",
     description:
       "A real-time messaging app with user authentication, online status tracking, and image sharing. Built with React, Socket.IO, Express, MongoDB, JWT, and TailwindCSS for scalable, responsive, and secure communication.",
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: "https://fullstack-chat-app-8hf7.onrender.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Full-Stack E-commerce Application",
     description:
       "E-commerce application with React and Strapi. Buy and sell electronic gadgets!. Integrated with Stripe for payment processing.",
@@ -36,7 +46,7 @@ const projectsData = [
     previewUrl: "https://youtu.be/M34ephJC9Is?si=qye_bhgcuf34paII",
   },
   {
-    id: 4,
+    id: 5,
     title: "PharmaChain : Pharma Supply Chain",
     description:
       "Built with React, Solidity, and Truffle. Integrated with Ganache and MetaMask. With React-Native mobile app for tracking shipments.",
@@ -47,7 +57,7 @@ const projectsData = [
       "https://github.com/TajMohammad786/MediChain-Pharma_Supply_Chain",
   },
   {
-    id: 5,
+    id: 6,
     title: "CodeCollab : Code Collaboration Platform",
     description:
       "Built as a college project with my to fellow classmate. React, Node.js, and Socket.io. Users can create rooms and share code in real-time. Users can chat with peer members for better productivity",
@@ -57,7 +67,7 @@ const projectsData = [
     previewUrl: "https://collborativecodeeditor.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Crypto-Hunter",
     description:
       "Crypto-Hunter is a web app that can be used to track real-time Crypto-Currency prices. Built with React and Bootstrap. Integrated with CoinGecko API.",
@@ -65,16 +75,6 @@ const projectsData = [
     tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/TajMohammad786/crypto-Hunter",
     previewUrl: "https://crypto-hunter007.netlify.app/",
-  },
-  {
-    id: 7,
-    title: "Bill Generator",
-    description:
-      "Built with React and Bootstrap. Users can generate bills for their customers. Integrated with context API  for state management.",
-    image: "/images/projects/44.png",
-    tag: ["All", "UI"],
-    gitUrl: "https://github.com/TajMohammad786/Bill-Generator-using-React",
-    previewUrl: "https://bill-generator-app.netlify.app/",
   },
   {
     id: 8,
@@ -107,6 +107,16 @@ const projectsData = [
       "https://github.com/TajMohammad786/Spotify-Clone-A_Simple_Music_Player.github.io",
     previewUrl:
       "https://tajmohammad786.github.io/Spotify-Clone-A_Simple_Music_Player.github.io/",
+  },
+  {
+    id: 11,
+    title: "Bill Generator",
+    description:
+      "Built with React and Bootstrap. Users can generate bills for their customers. Integrated with context API  for state management.",
+    image: "/images/projects/44.png",
+    tag: ["All", "UI"],
+    gitUrl: "https://github.com/TajMohammad786/Bill-Generator-using-React",
+    previewUrl: "https://bill-generator-app.netlify.app/",
   },
 ];
 
@@ -155,7 +165,10 @@ const ProjectsSection = () => {
           isSelected={tag === "BlockChain"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 hover:shadow-pink-500/30">
+      <ul
+        ref={ref}
+        className="grid md:grid-cols-3 gap-8 md:gap-12 hover:shadow-pink-500/30"
+      >
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}

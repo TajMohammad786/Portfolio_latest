@@ -67,6 +67,10 @@ const skillsList = [
     icon: "/images/logo/github.png",
   },
   {
+    name: "BitBucket",
+    icon: "/images/logo/bitbucket.png",
+  },
+  {
     name: "Git",
     icon: "/images/logo/git.png",
   },
