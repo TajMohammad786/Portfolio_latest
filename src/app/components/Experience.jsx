@@ -4,7 +4,7 @@ const experienceData = [
     role: "Full Stack Developer - Hybrid",
     duration: "June 2024 - Present",
     description:
-      "Working as a Full Stack Developer mainly with JavaScript, ExtJS, RhinoJS Engine and Oracle SQL. Working on product based software used for beverage pricing systems. Responsibilities include building new features, supporting existing features in the product. Performing deployment activities and co-ordinating with cross functional teams. Working closely with US-based team members on product development. Engaged in daily standups and development cycles with US-based teams",
+      "Working on product based software used for beverage pricing systems.Working as a FullStack Developer mainly with Sencha Extjs and Kotlin SpringBoot.Working closely with the team to rewrite Application into a new tech stack from scratch, handling Backend as well as Frontend side logic and code. Building APIs with Kotlin SpringBoot for Beverage Pricing Systems, handling UI with Component based Extjs. Working closely with US-based team members on product development. Engaged in daily standups and development cycles with US-based teams"
   },
   {
     company: "CODECLAUSE",

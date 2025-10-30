@@ -1,74 +1,74 @@
 import React from "react";
 import Image from "next/image";
-// import htmlLogo from "../../../public/images/logo/html-5.png";
-// import cssLogo from "../../../public/images/logo/css-3.png";
-import scssLogo from "../../../public/images/logo/sass.png";
-import ReactJsLogo from "../../../public/images/logo/physics.png";
-import JavaScriptLogo from "../../../public/images/logo/js.png";
-import MongoDBLogo from "../../../public/images/logo/mongo.png";
-import BootstrapLogo from "../../../public/images/logo/bootstrap.png";
-import TailwindLogo from "../../../public/images/logo/tailwind.png";
-import cppLogo from "../../../public/images/logo/c-.png";
-import nodeLogo from "../../../public/images/logo/nodejs.png";
-import expressLogo from "../../../public/images/logo/express.png";
-import mysqlLogo from "../../../public/images/logo/mysql.png";
-import githubLogo from "../../../public/images/logo/github.png";
-import gitLogo from "../../../public/images/logo/git.png";
-import TypeScriptLogo from "../../../public/images/logo/typescript.png";
 
 const skillsList = [
   {
     name: "ReactJS",
-    icon: ReactJsLogo,
+    icon: "/images/logo/physics.png",
   },
   {
     name: "JavaScript",
-    icon: JavaScriptLogo,
+    icon: "/images/logo/js.png",
   },
   {
     name: "TypeScript",
-    icon: TypeScriptLogo,
+    icon: "/images/logo/typescript.png",
   },
   {
     name: "NodeJS",
-    icon: nodeLogo,
+    icon: "/images/logo/nodejs.png",
   },
   {
     name: "Express",
-    icon: expressLogo,
+    icon: "/images/logo/express.png",
   },
   {
     name: "MongoDB",
-    icon: MongoDBLogo,
+    icon: "/images/logo/mongo.png",
   },
   {
     name: "MySQL",
-    icon: mysqlLogo,
+    icon: "/images/logo/mysql.png",
+  },
+  {
+    name: "Kotlin",
+    icon: "/images/logo/kotlin.png",
+  },
+  {
+    name: "ExtJs",
+    icon: "/images/logo/extjs.png",
+  },
+  {
+    name: "SpringBoot",
+    icon: "/images/logo/spring.png",
+  },
+  {
+    name: "Oracle SQL",
+    icon: "/images/logo/oracle.png",
   },
   {
     name: "SCSS",
-    icon: scssLogo,
+    icon: "/images/logo/sass.png",
   },
   {
     name: "Bootstrap",
-    icon: BootstrapLogo,
+    icon: "/images/logo/bootstrap.png",
   },
   {
     name: "Tailwind",
-    icon: TailwindLogo,
+    icon: "/images/logo/tailwind.png",
   },
   {
     name: "C++",
-    icon: cppLogo,
+    icon: "/images/logo/c-.png",
   },
-
   {
     name: "GitHub",
-    icon: githubLogo,
+    icon: "/images/logo/github.png",
   },
   {
     name: "Git",
-    icon: gitLogo,
+    icon: "/images/logo/git.png",
   },
 ];
 const AchievementsSection = () => {
@@ -87,9 +87,9 @@ const AchievementsSection = () => {
                 <Image
                   src={skill.icon}
                   alt={`${skill.name} logo`}
-                  width={80} // Adjust the width to your preferred size
-                  height={80} // Adjust the height to your preferred size
-                  objectFit="contain"
+                  width={80}
+                  height={80}
+                  style={{ objectFit: "contain" }}
                 />
               </div>
               <p className="text-white text-lg">{skill.name}</p>
